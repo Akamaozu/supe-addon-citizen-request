@@ -1,0 +1,14 @@
+{
+  "name": "supe-addon-citizen-request",
+  "version": "1.0.0",
+  "description": "Enables Supe's Citizens to Make (and Process) Requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
