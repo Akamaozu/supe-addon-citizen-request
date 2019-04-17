@@ -36,7 +36,7 @@ module.exports = function( citizen ){
           response.data = data;
         }
 
-        citizen.noticeboard.notify( citizen.get_name() +'-request-response', response );
+        citizen.noticeboard.notify( envelope.from +'-request-response', response );
         ack();
       }
     });
